@@ -1,0 +1,11 @@
+body {
+    color: #666;
+}
+
+nav.navbar li {
+    text-transform: lowercase;
+}
+
+.info {
+    background-color: #eee;
+}
