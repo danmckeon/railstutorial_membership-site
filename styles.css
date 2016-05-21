@@ -1,5 +1,9 @@
 body {
-    color: #666;
+    color: #888;
+}
+
+h1 {
+    font-size: 2em;
 }
 
 nav.navbar li {
@@ -8,4 +12,29 @@ nav.navbar li {
 
 .info {
     background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.info .btn-info {
+    float: right;
+}
+
+.ctr-infobox {
+    background-color: #53728e;
+    border-color: #205b8e;
+    color: rgba(255,255,255,0.85);
+}
+
+.ctr-infobox h1 {
+    color: #fff;
+}
+
+.ctr-infobox span.fa {
+    color: #a2bc65;
+    font-size: 5em;
+}
+
+.ctr-infobox .btn::after {
+    content: ">";
 }
