@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity=
+    "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    rel="stylesheet">
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    integrity=
+    "sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+    rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Seattle Counselors Association</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="topBar">
+                <div id="socialIcons"></div>
+                <div>
+                    <ul>
+                        <li>(425) 954-6371</li>
+                        <li>contact@seattlecounselors.org</li>
+                        <li>My Account</li>
+                    </ul>
+                </div>
+                <div></div>
+            </div>
+            <div id="logo"></div>
+        </header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button aria-expanded="false" class=
+                    "navbar-toggle collapsed" data-target=
+                    "#bs-example-navbar-collapse-1" data-toggle="collapse"
+                    type="button"><span class="sr-only">Toggle
+                    navigation</span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> <span class=
+                    "icon-bar"></span></button> <a class="navbar-brand" href=
+                    "#">SCA</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id=
+                "bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                            class="dropdown-toggle" data-toggle="dropdown"
+                            href="#" role="button">Who We Are<span class=
+                            "caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">History of the Organization</a>
+                                </li>
+                                <li>
+                                    <a href="#">Volunteer</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li>
+                            <a href="#">Meetings &amp; Presentations</a>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                            class="dropdown-toggle" data-toggle="dropdown"
+                            href="#" role="button">I am Looking for a
+                            Counselor<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Find a Therapy Group</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                            class="dropdown-toggle" data-toggle="dropdown"
+                            href="#" role="button">I am a Counselor<span class=
+                            "caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Become a Member</a>
+                                </li>
+                                <li>
+                                    <a href="#">Find a Workshop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Find Office Space</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li>
+                            <a href="#">News &amp; Events</a>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Search"
+                            type="text">
+                        </div><button class="btn btn-default" type=
+                        "submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <h4>My Profile</h4>
+        <form>
+            <div class="form-group">
+                <label for="InputFirstName">First Name</label> <input class=
+                "form-control" id="InputFirstName" type="first_name">
+            </div>
+            <div class="form-group">
+                <label for="InputLastName">Last Name</label> <input class=
+                "form-control" id="InputLastName" type="last_name">
+            </div>
+            <div class="form-group">
+                <label for="InputUsername">Username</label> <input class=
+                "form-control" id="InputUsername" type="username">
+            </div>
+            <div class="form-group">
+                <label for="InputEmail">Email</label> <input class=
+                "form-control" id="InputEmail" type="email">
+            </div>
+            <div class="form-group">
+                <label for="InputNewsletter">Receive Newsletter</label>
+                <div class="radio">
+                    <label><input checked id="optionsRadios1" name=
+                    "optionsRadios" type="radio" value="option1"> Yes</label>
+                </div>
+                <div class="radio">
+                    <label><input id="optionsRadios2" name="optionsRadios"
+                    type="radio" value="option2"> No</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="InputPhone">Personal Phone</label> <input class=
+                "form-control" id="InputPhone" type="phone">
+                <p class="help-block">Not shown in map search results</p>
+            </div>
+            <div class="form-group">
+                <label for="InputRegistrationDate">Registration Date</label>
+                <input class="form-control" id="InputRegistrationDate" type=
+                "registration_date">
+            </div>
+            <div class="form-group">
+                <label for="InputProfileImage">Profile Image</label> <input id=
+                "InputProfileImage" type="file">
+                <p class="help-block">Max. size 4 MB</p>
+            </div>
+            <div class="form-group">
+                <label for="InputPracticeName">Practice Name</label>
+                <input class="form-control" id="InputPracticeName" type=
+                "practice_name">
+            </div>
+            <div class="form-group">
+                <label for="InputOfficeAddress">Office Address</label>
+                <input class="form-control" id="InputOfficeAddress" type=
+                "office_address">
+            </div>
+            <div class="form-group">
+                <label for="InputOfficeAddress2">Office Address 2</label>
+                <input class="form-control" id="InputOfficeAddress2" type=
+                "office_address_2">
+            </div>
+            <div class="form-group">
+                <label for="InputOfficeCity">Office City</label> <input class=
+                "form-control" id="InputOfficeCity" type="office_city">
+            </div>
+            <div class="form-group">
+                <label>Office State</label> <select class="form-control">
+                    <option>
+                        AL
+                    </option>
+                    <option>
+                        AK
+                    </option>
+                    <option>
+                        AZ
+                    </option>
+                    <option>
+                        AR
+                    </option>
+                    <option>
+                        CA
+                    </option>
+                    <option>
+                        CO
+                    </option>
+                    <option>
+                        CT
+                    </option>
+                    <option>
+                        DE
+                    </option>
+                    <option>
+                        DC
+                    </option>
+                    <option>
+                        FL
+                    </option>
+                    <option>
+                        GA
+                    </option>
+                    <option>
+                        GU
+                    </option>
+                    <option>
+                        HI
+                    </option>
+                    <option>
+                        ID
+                    </option>
+                    <option>
+                        IL
+                    </option>
+                    <option>
+                        IN
+                    </option>
+                    <option>
+                        IA
+                    </option>
+                    <option>
+                        KS
+                    </option>
+                    <option>
+                        KY
+                    </option>
+                    <option>
+                        LA
+                    </option>
+                    <option>
+                        ME
+                    </option>
+                    <option>
+                        MD
+                    </option>
+                    <option>
+                        MA
+                    </option>
+                    <option>
+                        MI
+                    </option>
+                    <option>
+                        MN
+                    </option>
+                    <option>
+                        MS
+                    </option>
+                    <option>
+                        MO
+                    </option>
+                    <option>
+                        MT
+                    </option>
+                    <option>
+                        NE
+                    </option>
+                    <option>
+                        NV
+                    </option>
+                    <option>
+                        NH
+                    </option>
+                    <option>
+                        NJ
+                    </option>
+                    <option>
+                        NM
+                    </option>
+                    <option>
+                        NY
+                    </option>
+                    <option>
+                        NC
+                    </option>
+                    <option>
+                        ND
+                    </option>
+                    <option>
+                        OH
+                    </option>
+                    <option>
+                        OK
+                    </option>
+                    <option>
+                        OR
+                    </option>
+                    <option>
+                        PA
+                    </option>
+                    <option>
+                        PR
+                    </option>
+                    <option>
+                        RI
+                    </option>
+                    <option>
+                        SC
+                    </option>
+                    <option>
+                        SC
+                    </option>
+                    <option>
+                        TN
+                    </option>
+                    <option>
+                        TX
+                    </option>
+                    <option>
+                        UT
+                    </option>
+                    <option>
+                        VT
+                    </option>
+                    <option>
+                        VA
+                    </option>
+                    <option>
+                        VI
+                    </option>
+                    <option>
+                        WA
+                    </option>
+                    <option>
+                        WV
+                    </option>
+                    <option>
+                        WI
+                    </option>
+                    <option>
+                        WY
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="InputOfficeZip">Office Zip</label> <input class=
+                "form-control" id="InputOfficeZip" type="office_zip">
+            </div>
+            <div class="form-group">
+                <label for="InputOfficePhone">Office Phone</label>
+                <input class="form-control" id="InputOfficePhone" type=
+                "office_phone">
+            </div>
+            <div class="form-group">
+                <label for="InputEmail2">Second Email</label> <input class=
+                "form-control" id="InputEmail2" type="email_2">
+            </div>
+            <div class="form-group">
+                <label for="InputWebsite">Website</label> <input class=
+                "form-control" id="InputWebsite" type="website">
+            </div>
+            <div class="form-group">
+                <label for="InputLicenseTypes">License Type(s)</label>
+                <input class="form-control" id="InputLicenseTypes" type=
+                "license_types">
+            </div>
+            <div class="form-group">
+                <label for="InputLicenseNumber">License Number</label>
+                <input class="form-control" id="InputLicenseNumber" type=
+                "license_number">
+            </div>
+            <div class="form-group">
+                <label for="InputShortDescription">Short Description</label> 
+                <textarea class="form-control" rows="3"></textarea>
+                <p class="help-block">This field will appear in your search
+                result only</p>
+            </div>
+            <div class="form-group">
+                <label for="InputLongDescription">Long Description</label> 
+                <textarea class="form-control" rows="8"></textarea>
+                <p class="help-block">This field will appear in your full
+                profile page only. The short description will not appear
+                there</p>
+            </div>
+            <div class="form-group">
+                <label for="InputSessionType">Session Type</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="individuals">
+                    INDIVIDUALS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="groups">
+                    GROUPS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="couples">
+                    COUPLES</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="workshops">
+                    WORKSHOPS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="families">
+                    FAMILIES</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="InputPopulation">Populatuion</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="adults">
+                    ADULTS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="elderly">
+                    ELDERLY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="adolescents">
+                    ADOLESCENTS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="males"> MALES</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="children">
+                    CHILDREN</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="females">
+                    FEMALES</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="InputSpecialty">Specialty</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="abortion">
+                    ABORTION</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="abuse"> ABUSE
+                    (EMOTIONAL)</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value=
+                    "adolescents_and_parents_separation"> ADOLESCENTS AND
+                    PARENTS (SEPARATION)</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value=
+                    "adoption_and_foster_care"> ADOPTON AND FOSTER CARE</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="aging"> AGING</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value=""> ANGER & CONFLICT
+                    MANAGEMENT</label>
+                </div>
+            </div><button class="btn btn-default" type="submit">Update</button>
+        </form><!-- <div class="row">
+                <div class="col-sm-12 col-md-8">
+                    <section class="info">
+                        <h1>Seattle Counselors Association</h1>
+                        <h2>The RIGHT fit.</h2>
+                        <p>We are a dedicated community of professionals supporting those who want to
+                        grow their practice, enhance their visibility, and receive ongoing training.</p>
+                    </section>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a href="#" class="btn btn-info">Contact Us Today<span class="fa fa-arrow-circle-o-right"></span></a>
+                </div>
+            </div>
+            <section>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <section class="ctr-infobox">
+                            <span class="fa fa-level-up"></span>
+                            <h1>COUNSELORS: Grow your Business!</h1>
+
+                            <p>Learn about the benefits of membership and sign up today.</p>
+                            <a href="#" class="btn btn-default">Become a member</a>
+                        </section>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <section class="ctr-infobox">
+                            <span class="fa fa-search"></span>
+                            <h1>Find a Counselor</h1>
+
+                            <p>Search our directory for a counselor that serves your needs.</p>
+                            <a href="#" class="btn btn-default">Find a counselor now</a>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1>About Seattle Counselors Association</h1>
+
+    <p>Seattle Counselors Association (SCA) is a vibrant community of mental health professionals serving the entire Puget Sound region. SCA provides a unique opportunity to network with other mental health professionals, promote your practice, announce your upcoming workshop or event, and learn from clinically relevant presentations.</p>
+    
+    <ul>
+    <li>Highlight your practice on our website with your own profile.</li>
+    <li>Earn Continuing Education Credits</li>
+    <li>Enjoy getting to know other professionals by attending monthly meetings.</li>
+    <li>Develop your leadership skills by becoming involved in the running of our organization.</li>
+    <li>Receive our online SCA newsletter Connections, which includes current information about our organization, upcoming guest speakers, and a message from the SCA President.</li>
+    </ul>
+    <p><a href="#">Learn More  >></a></p>
+            </section>
+            <footer>
+                <section id="followUs"></section>
+                <nav id="siteMap">
+                    <h2>Site Map</h2>
+                    <ul>
+                        <li>home</li>
+                        <li>meetings &amp; presentations</li>
+                        <li>i am looking for a counselor</li>
+                        <li>i am a counselor</li>
+                        <li>news &amp; events</li>
+                        <li>contact</li>
+                        <li>my profile</li>
+                    </ul>
+                </nav> -->
+        <section id="contactInfo"></section>
+        <p class="copyrigt">Copyright 2015 Seattle Counselors Association. ALL
+        RIGHTS RESERVED.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js">
+    </script> 
+    <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+</body>
+</html>
