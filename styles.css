@@ -6,6 +6,10 @@ h1 {
     font-size: 2em;
 }
 
+header a {
+    color: #888;
+}
+
 nav.navbar li {
     text-transform: lowercase;
 }
