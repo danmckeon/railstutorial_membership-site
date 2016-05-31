@@ -10,10 +10,19 @@ nav.navbar li {
     text-transform: lowercase;
 }
 
-.info {
+.contact-box {
     background-color: #eee;
     border: 1px solid #ccc;
     border-radius: 6px;
+}
+
+.contact-box div:nth-child(2) {
+    display: flex;
+    border: 1px solid black;
+}
+
+.contact-box .btn {
+    margin: auto;
 }
 
 .info .btn-info {
