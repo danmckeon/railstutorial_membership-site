@@ -10,14 +10,43 @@ header a {
     color: #888;
 }
 
+header .row {
+    padding: 1%;
+}
+
 nav.navbar li {
     text-transform: lowercase;
 }
 
-.info {
+#contactInfo {
+    padding: 0;
+}
+
+#contactInfo ul {
+    float: right;
+}
+
+#contactInfo ul li {
+    display: inline;
+    padding: 0 0.75em;
+}
+
+#login p {
+    float: right;
+}
+
+.contact-box {
     background-color: #eee;
     border: 1px solid #ccc;
     border-radius: 6px;
+}
+
+.contact-box div:nth-child(2) {
+    display: flex;
+}
+
+.contact-box .btn {
+    margin: auto;
 }
 
 .info .btn-info {
