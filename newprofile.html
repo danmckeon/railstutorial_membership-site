@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity=
+    "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    rel="stylesheet">
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    integrity=
+    "sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1"
+    rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Seattle Counselors Association</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="topBar">
+                <div id="socialIcons"></div>
+                <div>
+                    <ul>
+                        <li>(425) 954-6371</li>
+                        <li>contact@seattlecounselors.org</li>
+                        <li>My Account</li>
+                    </ul>
+                </div>
+                <div></div>
+            </div>
+            <div id="logo"></div>
+        </header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button aria-expanded="false" class=
+                    "navbar-toggle collapsed" data-target=
+                    "#bs-example-navbar-collapse-1" data-toggle="collapse"
+                    type="button"><span class="sr-only">Toggle
+                    navigation</span> <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> <span class=
+                    "icon-bar"></span></button> <a class="navbar-brand" href=
+                    "#">SCA</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id=
+                "bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                            class="dropdown-toggle" data-toggle="dropdown"
+                            href="#" role="button">Who We Are<span class=
+                            "caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">History of the Organization</a>
+                                </li>
+                                <li>
+                                    <a href="#">Volunteer</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li>
+                            <a href="#">Meetings &amp; Presentations</a>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                            class="dropdown-toggle" data-toggle="dropdown"
+                            href="#" role="button">I am Looking for a
+                            Counselor<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Find a Therapy Group</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li class="dropdown">
+                            <a aria-expanded="false" aria-haspopup="true"
+                            class="dropdown-toggle" data-toggle="dropdown"
+                            href="#" role="button">I am a Counselor<span class=
+                            "caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Become a Member</a>
+                                </li>
+                                <li>
+                                    <a href="#">Find a Workshop</a>
+                                </li>
+                                <li>
+                                    <a href="#">Find Office Space</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li>
+                            <a href="#">News &amp; Events</a>
+                        </li>
+                        <li class="divider" role="separator"></li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Search"
+                            type="text">
+                        </div><button class="btn btn-default" type=
+                        "submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <h4>My Profile</h4>
+        <form>
+            <div class="form-group">
+                <label for="InputFirstName">First Name</label> <input class=
+                "form-control" id="InputFirstName" type="first_name">
+            </div>
+            <div class="form-group">
+                <label for="InputLastName">Last Name</label> <input class=
+                "form-control" id="InputLastName" type="last_name">
+            </div>
+            <div class="form-group">
+                <label for="InputUsername">Username</label> <input class=
+                "form-control" id="InputUsername" type="username">
+            </div>
+            <div class="form-group">
+                <label for="InputEmail">Email</label> <input class=
+                "form-control" id="InputEmail" type="email">
+            </div>
+            <div class="form-group">
+                <label for="InputNewsletter">Receive Newsletter</label>
+                <div class="radio">
+                    <label><input checked id="optionsRadios1" name=
+                    "optionsRadios" type="radio" value="option1"> Yes</label>
+                </div>
+                <div class="radio">
+                    <label><input id="optionsRadios2" name="optionsRadios"
+                    type="radio" value="option2"> No</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="InputPhone">Personal Phone</label> <input class=
+                "form-control" id="InputPhone" type="phone">
+                <p class="help-block">Not shown in map search results</p>
+            </div>
+            <div class="form-group">
+                <label for="InputRegistrationDate">Registration Date</label>
+                <input class="form-control" id="InputRegistrationDate" type=
+                "registration_date">
+            </div>
+            <div class="form-group">
+                <label for="InputProfileImage">Profile Image</label> <input id=
+                "InputProfileImage" type="file">
+                <p class="help-block">Max. size 4 MB</p>
+            </div>
+            <div class="form-group">
+                <label for="InputPracticeName">Practice Name</label>
+                <input class="form-control" id="InputPracticeName" type=
+                "practice_name">
+            </div>
+            <div class="form-group">
+                <label for="InputOfficeAddress">Office Address</label>
+                <input class="form-control" id="InputOfficeAddress" type=
+                "office_address">
+            </div>
+            <div class="form-group">
+                <label for="InputOfficeAddress2">Office Address 2</label>
+                <input class="form-control" id="InputOfficeAddress2" type=
+                "office_address_2">
+            </div>
+            <div class="form-group">
+                <label for="InputOfficeCity">Office City</label> <input class=
+                "form-control" id="InputOfficeCity" type="office_city">
+            </div>
+            <div class="form-group">
+                <label>Office State</label> <select class="form-control">
+                    <option>
+                        AL
+                    </option>
+                    <option>
+                        AK
+                    </option>
+                    <option>
+                        AZ
+                    </option>
+                    <option>
+                        AR
+                    </option>
+                    <option>
+                        CA
+                    </option>
+                    <option>
+                        CO
+                    </option>
+                    <option>
+                        CT
+                    </option>
+                    <option>
+                        DE
+                    </option>
+                    <option>
+                        DC
+                    </option>
+                    <option>
+                        FL
+                    </option>
+                    <option>
+                        GA
+                    </option>
+                    <option>
+                        GU
+                    </option>
+                    <option>
+                        HI
+                    </option>
+                    <option>
+                        ID
+                    </option>
+                    <option>
+                        IL
+                    </option>
+                    <option>
+                        IN
+                    </option>
+                    <option>
+                        IA
+                    </option>
+                    <option>
+                        KS
+                    </option>
+                    <option>
+                        KY
+                    </option>
+                    <option>
+                        LA
+                    </option>
+                    <option>
+                        ME
+                    </option>
+                    <option>
+                        MD
+                    </option>
+                    <option>
+                        MA
+                    </option>
+                    <option>
+                        MI
+                    </option>
+                    <option>
+                        MN
+                    </option>
+                    <option>
+                        MS
+                    </option>
+                    <option>
+                        MO
+                    </option>
+                    <option>
+                        MT
+                    </option>
+                    <option>
+                        NE
+                    </option>
+                    <option>
+                        NV
+                    </option>
+                    <option>
+                        NH
+                    </option>
+                    <option>
+                        NJ
+                    </option>
+                    <option>
+                        NM
+                    </option>
+                    <option>
+                        NY
+                    </option>
+                    <option>
+                        NC
+                    </option>
+                    <option>
+                        ND
+                    </option>
+                    <option>
+                        OH
+                    </option>
+                    <option>
+                        OK
+                    </option>
+                    <option>
+                        OR
+                    </option>
+                    <option>
+                        PA
+                    </option>
+                    <option>
+                        PR
+                    </option>
+                    <option>
+                        RI
+                    </option>
+                    <option>
+                        SC
+                    </option>
+                    <option>
+                        SC
+                    </option>
+                    <option>
+                        TN
+                    </option>
+                    <option>
+                        TX
+                    </option>
+                    <option>
+                        UT
+                    </option>
+                    <option>
+                        VT
+                    </option>
+                    <option>
+                        VA
+                    </option>
+                    <option>
+                        VI
+                    </option>
+                    <option>
+                        WA
+                    </option>
+                    <option>
+                        WV
+                    </option>
+                    <option>
+                        WI
+                    </option>
+                    <option>
+                        WY
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="InputOfficeZip">Office Zip</label> <input class=
+                "form-control" id="InputOfficeZip" type="office_zip">
+            </div>
+            <div class="form-group">
+                <label for="InputOfficePhone">Office Phone</label>
+                <input class="form-control" id="InputOfficePhone" type=
+                "office_phone">
+            </div>
+            <div class="form-group">
+                <label for="InputEmail2">Second Email</label> <input class=
+                "form-control" id="InputEmail2" type="email_2">
+            </div>
+            <div class="form-group">
+                <label for="InputWebsite">Website</label> <input class=
+                "form-control" id="InputWebsite" type="website">
+            </div>
+            <div class="form-group">
+                <label for="InputLicenseTypes">License Type(s)</label>
+                <input class="form-control" id="InputLicenseTypes" type=
+                "license_types">
+            </div>
+            <div class="form-group">
+                <label for="InputLicenseNumber">License Number</label>
+                <input class="form-control" id="InputLicenseNumber" type=
+                "license_number">
+            </div>
+            <div class="form-group">
+                <label for="InputShortDescription">Short Description</label> 
+                <textarea class="form-control" rows="3"></textarea>
+                <p class="help-block">This field will appear in your search
+                result only</p>
+            </div>
+            <div class="form-group">
+                <label for="InputLongDescription">Long Description</label> 
+                <textarea class="form-control" rows="8"></textarea>
+                <p class="help-block">This field will appear in your full
+                profile page only. The short description will not appear
+                there</p>
+            </div>
+            <div class="form-group">
+                <label for="InputSessionType">Session Type</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="individuals">
+                    INDIVIDUALS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="groups">
+                    GROUPS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="couples">
+                    COUPLES</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="workshops">
+                    WORKSHOPS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="families">
+                    FAMILIES</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="InputPopulation">Populatuion</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="adults">
+                    ADULTS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="elderly">
+                    ELDERLY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="adolescents">
+                    ADOLESCENTS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="males"> MALES</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="children">
+                    CHILDREN</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="females">
+                    FEMALES</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="InputSpecialty">Specialty</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="abortion">
+                    ABORTION</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="abuse"> ABUSE
+                    (EMOTIONAL)</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value=
+                    "adolescents_and_parents_separation"> ADOLESCENTS AND
+                    PARENTS (SEPARATION)</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value=
+                    "adoption_and_foster_care"> ADOPTON AND FOSTER CARE</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="aging"> AGING</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="anger_and_conflict_management"> ANGER AND CONFLICT
+                    MANAGEMENT</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="anxiety_and_panic_disorders"> ANXIETY AND PANIC DISORDERS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="art_therapy"> ART THERAPY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="attention_deficit_disorder"> ATTENTION DEFICIT DISORDER</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="bipolar_disorder"> BIPOLAR DISORDER</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="body_imge"> BODY IMAGE</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="body_psychology"> BODY PSYCHOLOGY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="career_counseling"> CAREER COUNSELING</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="caregiver_concerns"> CAREGIVER CONCERNS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="case_management"> CASE MANAGEMENT</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="computer_and_internet_addiction"> COMPUTER AND INTERNET ADDICTION</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="couples_counseling"> COUPLES COUNSELING</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="death_and_dying"> DEATH AND DYING</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="depression"> DEPRESSION</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="divorce"> DIVORCE</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="domestic_violence"> DOMESTIC VIOLENCE</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="dual_diagnosis"> DUAL DIAGNOSIS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="eating_disorders"> EATING DISORDERS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="emdr"> EMDR</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="lgbqt"> LGBQT</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="gender_identity"> GENDER IDENTITY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="grief_and_loss"> GRIEF AND LOSS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="hypnosis"> HYPNOSIS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="infertility"> INFERTILITY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="life_coaching"> LIFE COACHING</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="life_goals"> LIFE GOALS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="life_transitions"> LIFE TRANSITIONS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="meditation"> MEDITATION</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="medical_illness_and_conditions"> MEDICAL ILLNESS AND CONDITIONS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="medications"> MEDICATIONS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="mens_issues"> MEN'S ISSUES</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="movement_therpay"> MOVEMENT THERAPY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="obsessive_and_compulsive_disorders"> OBSESSIVE & COMPULSIVE DISORDERS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="pain_control"> PAIN CONTROL</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="parenting"> PARENTING</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="personality_disorders"> PERSONALITY DISORDERS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="personal_growth"> PERSONAL GROWTH</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="phobias"> PHOBIAS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="physical_abuse"> PHYSICAL ABUSE</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="post_traumatic_stress_disorder"> POST TRAUMATIC STRESS DISORDER</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="practice_development"> PRACTICE DEVELOPMENT</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="pregnancy"> PREGNANCY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="prenatal_and_perinatal_psychology"> PRENATAL AND PERINATAL PSYCHOLOGY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="psychodrama"> PSYCHODRAMA</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="psychospiritual_growth"> PSYCHOSPIRITUAL GROWTH</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="recreation_therapy"> RECREATION THERAPY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="relationship_issues"> RELATIONSHIP ISSUES</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="schizophrenia"> SCHIZOPHRENIA</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="separation_and_individuation"> SEPARATION AND INDIVIDUATION</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="sexual_compulsion_and_addiction"> SEXUAL COMPULSION AND ADDICTION</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="sexual_harassment"> SEXUAL HARASSMENT</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="sexuality"> SEXUALITY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="social_skills"> SOCIAL SKILLS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="spirituality"> SPIRITUALITY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="stepfamily_and_blended_familyu"> STEPFAMILY AND BLENDED FAMILY</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="stress_management"> STRESS MANAGEMENT</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="addicition_and_substance_abuse"> ADDICTION AND SUBSTANCE ABUSE</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="transgender"> TRANSGENDER</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="womens_issues"> WOMEN'S ISSUES</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="workplace_issues"> WORKPLACE ISSUES</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="autisim_spectrum_disorders"> AUTISM SPECTRUM DISORDERS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="alzheimers"> ALZHEIMER'S</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="memory_loss"> MEMORY LOSS</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="educational_therapist"> EDUCATIONAL THERAPIST</label>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" value="disability"> DISABILITY</label>
+                </div>
+            </div><button class="btn btn-default" type="submit">Update</button>
+        </form>
+        <section id="contactInfo"></section>
+        <p class="copyrigt">Copyright 2015 Seattle Counselors Association. ALL
+        RIGHTS RESERVED.</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js">
+    </script> 
+    <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+    </script>
+</body>
+</html>
