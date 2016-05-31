@@ -10,8 +10,29 @@ header a {
     color: #888;
 }
 
+header .row {
+    padding: 1%;
+}
+
 nav.navbar li {
     text-transform: lowercase;
+}
+
+#contactInfo {
+    padding: 0;
+}
+
+#contactInfo ul {
+    float: right;
+}
+
+#contactInfo ul li {
+    display: inline;
+    padding: 0 0.75em;
+}
+
+#login p {
+    float: right;
 }
 
 .contact-box {
@@ -22,7 +43,6 @@ nav.navbar li {
 
 .contact-box div:nth-child(2) {
     display: flex;
-    border: 1px solid black;
 }
 
 .contact-box .btn {
