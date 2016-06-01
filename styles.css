@@ -34,17 +34,27 @@ nav.navbar li {
     padding: 0 0.75em;
 }
 
-#logo {
-    height: 4em;
-}
-
 #logo form button {
     background-color: #3B86B0;
     color: #fff;
+    float: right;
 }
 
 #login p {
     float: right;
+}
+
+#search {
+    margin-top: 3.5%;
+}
+
+#search div.form-group {
+    overflow: hidden;
+    padding-right: .25em;
+}
+
+#search div.form-group input.form-control {
+    width: 100%;
 }
 
 .contact-box {
