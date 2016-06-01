@@ -24,11 +24,23 @@ nav.navbar li {
 
 #contactInfo ul {
     float: right;
+    padding: 0;
+    font-size: 13px;
 }
 
 #contactInfo ul li {
-    display: inline;
+    display: inline-block;
+    list-style-type: none;
     padding: 0 0.75em;
+}
+
+#logo {
+    height: 4em;
+}
+
+#logo form button {
+    background-color: #3B86B0;
+    color: #fff;
 }
 
 #login p {
