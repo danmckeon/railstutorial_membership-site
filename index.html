@@ -8,6 +8,16 @@
         <title>Seattle Counselors Association</title>
     </head>
     <body>
+		<!-- implements Facebook follow widget -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
         <div class="container">
             <header>
                 <div class="row" id="topBar">
@@ -155,24 +165,59 @@
     </ul>
     <p><a href="#">Learn More  >></a></p>
             </section>
-            <footer>
-                <section id="followUs"></section>
-                <nav id="siteMap">
-                    <h2>Site Map</h2>
-                    <ul>
-                        <li>home</li>
-                        <li>meetings &amp; presentations</li>
-                        <li>i am looking for a counselor</li>
-                        <li>i am a counselor</li>
-                        <li>news &amp; events</li>
-                        <li>contact</li>
-                        <li>my profile</li>
-                    </ul>
-                </nav>
-                <section id="contactInfo"></section>
-                <p class="copyrigt">Copyright 2015 Seattle Counselors Association.  ALL RIGHTS RESERVED.</p>
-            </footer>
-        </div>
+   
+        <footer>
+			<div class="row">
+				<div class="col-xs-3 col-xs-3 col-xs-3 col-xs-4">
+					<section id="followUs">
+						<h2>Follow Us</h2>
+						<ul>
+							<li><div class="fb-follow" data-href="https://www.facebook.com/SeattleCounselorsAssociation" data-layout="button" data-show-faces="true"></div>
+							</li>
+							<li><a href="https://twitter.com/scacounselor" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @scacounselor</a>
+							</li>
+							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						</ul>
+					</section>
+				</div>
+				<div class="col-xs-3 col-xs-3 col-xs-3 col-xs-4">
+					<nav id="siteMap">
+						<h2>Site Map</h2>
+						<ul>
+							<li><a href="#">home</a></li>
+							<li><a href="#">meetings &amp; presentations</a></li>
+							<li><a href="#">i am looking for a counselor</a></li>
+							<li><a href="#">i am a counselor</a></li>
+							<li><a href="#">news &amp; events</a></li>
+							<li><a href="#">contact</a></li>
+							<li><a href="#">my profile</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-xs-6 col-xs-6 col-xs-6 col-xs-4">
+					<section id="contactInfo">
+						<h2>Contact Info</h2>
+						<p>Swedish Cultural Center <br />
+							1920 Dexter Avenue North <br />
+							Seattle, WA 98109-2718  <br />
+							<a href="https://www.google.com/maps/preview?ll=47.636352,-122.342112&z=14&t=m&hl=en-US&gl=US&mapclient=embed&q=1920+Dexter+Ave+N+Seattle,+WA+98109">[ map ]</a> <br />
+						</p>
+						<p>
+							Mailing Address: <br />
+							PO Box 58530, Seattle, WA 98138 <br />
+						</p>
+						<p>
+							<a href="mailto:contact@seattlecounselors.org">contact@seattlecounselors.org</a>
+						</p>
+					</section>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-xs-12 col-xs-12 col-xs-12" id="copyright">
+						<p>Copyright 2015 Seattle Counselors Association.  ALL RIGHTS RESERVED.</p>
+					</div>
+				</div>
+			</div>
+        </footer>
         <script
 			  src="https://code.jquery.com/jquery-1.12.3.min.js"
 			  integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
