@@ -1,0 +1,144 @@
+body {
+    color: #888;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Header */
+
+header {
+    a {
+        color: #888;
+    }
+    .row {
+        padding: 1%;
+    }
+}
+
+nav.navbar li {
+    text-transform: lowercase;
+}
+
+#contactInfo {
+    padding: 0;
+    ul {
+        float: right;
+        padding: 0;
+        font-size: 13px;
+    }
+    ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0 0.75em;
+    }
+}
+
+#logo form button {
+    background-color: #3B86B0;
+    color: #fff;
+    float: right;
+}
+
+#login p {
+    float: right;
+}
+
+#search {
+    margin-top: 3.5%;
+    div.form-group {
+        overflow: hidden;
+        padding-right: .25em;
+    }
+    div.form-group input.form-control {
+        width: 100%;
+    }
+}
+
+/* Center */
+
+.contact-box {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    div:nth-child(2) {
+        display: flex;
+    }
+    .btn {
+        margin: auto;
+    }
+}
+
+.info .btn-info {
+    float: right;
+}
+
+.ctr-infobox {
+    background-color: #53728e;
+    border-color: #205b8e;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 4%;
+    h1 {
+        color: #fff;
+    }
+    span.fa {
+        color: #a2bc65;
+        font-size: 4em;
+        background-color: #fff;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 99px;
+        text-align: center;
+    }
+    .btn::after {
+        content: ">";
+    }
+}
+
+/* Footer */
+
+footer {
+    background: #262626;
+    color: #777;
+    padding: 0 2%;
+    h2 {
+        color: #fff;
+        font-size: 1.25em;
+    }
+    ul {
+        padding: 0;
+    }
+    ul li,
+    p {
+        font-size: 0.9em;
+    }
+    a {
+        color: #777;
+        &:hover,
+        &:active {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+#siteMap ul {
+    list-style-type: none;
+}
+
+#followUs .fb_follow,
+#twitter-widget-0 {
+    display: block;
+}
+
+#followUs ul li {
+    list-style-type: none;
+    padding: 2% 0;
+}
+
+#copyright {
+    padding: 1.25% 0;
+    background: #222;
+}
