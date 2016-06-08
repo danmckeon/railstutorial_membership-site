@@ -8,12 +8,13 @@ h1 {
 
 /* Header */
 
-header a {
-    color: #888;
-}
-
-header .row {
-    padding: 1%;
+header {
+    a {
+        color: #888;
+    }
+    .row {
+        padding: 1%;
+    }
 }
 
 nav.navbar li {
@@ -22,19 +23,17 @@ nav.navbar li {
 
 #contactInfo {
     padding: 0;
-}
-
-    #contactInfo ul {
+    ul {
         float: right;
         padding: 0;
         font-size: 13px;
     }
-
-        #contactInfo ul li {
-            display: inline-block;
-            list-style-type: none;
-            padding: 0 0.75em;
-        }
+    ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0 0.75em;
+    }
+}
 
 #logo form button {
     background-color: #3B86B0;
@@ -48,16 +47,14 @@ nav.navbar li {
 
 #search {
     margin-top: 3.5%;
-}
-
-    #search div.form-group {
+    div.form-group {
         overflow: hidden;
         padding-right: .25em;
     }
-
-        #search div.form-group input.form-control {
-            width: 100%;
-        }
+    div.form-group input.form-control {
+        width: 100%;
+    }
+}
 
 /* Center */
 
@@ -65,15 +62,13 @@ nav.navbar li {
     background-color: #eee;
     border: 1px solid #ccc;
     border-radius: 6px;
-}
-
-    .contact-box div:nth-child(2) {
+    div:nth-child(2) {
         display: flex;
     }
-
-    .contact-box .btn {
+    .btn {
         margin: auto;
     }
+}
 
 .info .btn-info {
     float: right;
@@ -82,15 +77,12 @@ nav.navbar li {
 .ctr-infobox {
     background-color: #53728e;
     border-color: #205b8e;
-    color: rgba(255,255,255,0.85);
+    color: rgba(255, 255, 255, 0.85);
     padding: 4%;
-}
-
-    .ctr-infobox h1 {
+    h1 {
         color: #fff;
     }
-
-    .ctr-infobox span.fa {
+    span.fa {
         color: #a2bc65;
         font-size: 4em;
         background-color: #fff;
@@ -100,9 +92,9 @@ nav.navbar li {
         border-radius: 99px;
         text-align: center;
     }
-
-.ctr-infobox .btn::after {
-    content: ">";
+    .btn::after {
+        content: ">";
+    }
 }
 
 /* Footer */
@@ -110,38 +102,34 @@ nav.navbar li {
 footer {
     background: #262626;
     color: #777;
-    padding: 0 2%
-}
-
-    footer h2 {
+    padding: 0 2%;
+    h2 {
         color: #fff;
         font-size: 1.25em;
     }
-    
-    footer ul {
+    ul {
         padding: 0;
     }
-    
-    footer ul li,
-    footer p {
+    ul li,
+    p {
         font-size: 0.9em;
     }
-    
-    footer a {
+    a {
         color: #777;
-    }
-    
-        footer a:hover,
-        footer a:active {
+        &:hover,
+        &:active {
             color: #fff;
             text-decoration: none;
         }
-        
+    }
+}
+
 #siteMap ul {
     list-style-type: none;
 }
 
-#followUs .fb_follow, #twitter-widget-0 {
+#followUs .fb_follow,
+#twitter-widget-0 {
     display: block;
 }
 
