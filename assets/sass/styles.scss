@@ -147,6 +147,25 @@ footer {
     list-style-type: none;
 }
 
-#officer-volunteer {
+#volunteer-history {
     background: #E6E6E6;
+    height: auto;
+    #volunteer, #history {
+        padding: {
+            bottom: 30px;
+        }
+    }
+}
+
+#benefits {
+    margin-bottom: 150px;
+    .btn {
+        height: 75px;
+        line-height: 75px;
+        margin: {
+            left: 10px;
+            right: 10px;
+        }
+        
+    }
 }

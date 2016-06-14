@@ -110,5 +110,16 @@ footer {
 .no-list-style {
   list-style-type: none; }
 
-#officer-volunteer {
-  background: #E6E6E6; }
+#volunteer-history {
+  background: #E6E6E6;
+  height: auto; }
+  #volunteer-history #volunteer, #volunteer-history #history {
+    padding-bottom: 30px; }
+
+#benefits {
+  margin-bottom: 150px; }
+  #benefits .btn {
+    height: 75px;
+    line-height: 75px;
+    margin-left: 10px;
+    margin-right: 10px; }
