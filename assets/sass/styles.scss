@@ -13,6 +13,7 @@
 
 //general styling for functionality that is used throughout the site
 @import "mixins", "header", "footer";
+
 //import specific page styles
 @import "index", "about";
 
@@ -20,7 +21,7 @@
 //Define variables here
 
 
-//Begin Core Styles
+/* Begin Core Styles */
 
 body {
     color: #888;

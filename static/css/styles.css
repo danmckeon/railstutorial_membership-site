@@ -1,3 +1,4 @@
+/* Begin Header Styles */
 header a {
   color: #888; }
 
@@ -32,6 +33,7 @@ nav.navbar li {
   #search div.form-group input.form-control {
     width: 100%; }
 
+/* Begin Footer styles */
 footer {
   background: #262626;
   color: #777;
@@ -61,6 +63,7 @@ footer {
   padding: 1.25% 0;
   background: #222; }
 
+/* Begin index content styles */
 .contact-box {
   background-color: #eee;
   border: 1px solid #ccc;
@@ -92,6 +95,7 @@ footer {
   .ctr-infobox .btn::after {
     content: ">"; }
 
+/* Begin About content styles */
 #volunteer-history {
   background: #E6E6E6;
   height: auto; }
@@ -106,6 +110,7 @@ footer {
     margin-left: 10px;
     margin-right: 10px; }
 
+/* Begin Core Styles */
 body {
   color: #888; }
 
