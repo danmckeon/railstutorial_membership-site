@@ -1,0 +1,41 @@
+
+// Styles the content in index.html
+ 
+.contact-box {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    div:nth-child(2) {
+        display: flex;
+    }
+    .btn {
+        margin: auto;
+    }
+}
+
+.info .btn-info {
+    float: right;
+}
+
+.ctr-infobox {
+    background-color: #53728e;
+    border-color: #205b8e;
+    color: rgba(255, 255, 255, 0.85);
+    padding: 4%;
+    h1 {
+        color: #fff;
+    }
+    span.fa {
+        color: #a2bc65;
+        font-size: 4em;
+        background-color: #fff;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 99px;
+        text-align: center;
+    }
+    .btn::after {
+        content: ">";
+    }
+}

@@ -1,0 +1,39 @@
+// contains styling for the footer
+footer {
+    background: #262626;
+    color: #777;
+    padding: 0 2%;
+    h2 {
+        color: #fff;
+        font-size: 1.25em;
+    }
+    ul {
+        padding: 0;
+    }
+    ul li,
+    p {
+        font-size: 0.9em;
+    }
+    a {
+        color: #777;
+        &:hover,
+        &:active {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}
+
+#followUs .fb_follow,
+#twitter-widget-0 {
+    display: block;
+}
+
+#followUs ul li {
+    padding: 2% 0;
+}
+
+#copyright {
+    padding: 1.25% 0;
+    background: #222;
+}
