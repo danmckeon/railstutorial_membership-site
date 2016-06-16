@@ -63,6 +63,12 @@ footer {
   padding: 1.25% 0;
   background: #222; }
 
+body {
+  color: #888; }
+
+h1 {
+  font-size: 2em; }
+
 /* Begin index content styles */
 .contact-box {
   background-color: #eee;
@@ -111,8 +117,5 @@ footer {
     margin-right: 10px; }
 
 /* Begin Core Styles */
-body {
-  color: #888; }
-
 h1 {
   font-size: 2em; }
