@@ -1,7 +1,7 @@
 // Styles the content in about.html
 /* Begin About content styles */ 
 #volunteer-history {
-    background: #E6E6E6;
+    background: lighten($gray, 30%);//#E6E6E6;
     height: auto;
     #volunteer, #history {
         padding: {

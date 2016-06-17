@@ -83,14 +83,14 @@ h1 {
   float: right; }
 
 .ctr-infobox {
-  background-color: #53728e;
+  background-color: #004F7F;
   border-color: #205b8e;
   color: rgba(255, 255, 255, 0.85);
   padding: 4%; }
   .ctr-infobox h1 {
     color: #fff; }
   .ctr-infobox span.fa {
-    color: #a2bc65;
+    color: #FAA126;
     font-size: 4em;
     background-color: #fff;
     width: 80px;
@@ -103,7 +103,7 @@ h1 {
 
 /* Begin About content styles */
 #volunteer-history {
-  background: #E6E6E6;
+  background: #d5d5d5;
   height: auto; }
   #volunteer-history #volunteer, #volunteer-history #history {
     padding-bottom: 30px; }
