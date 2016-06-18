@@ -1,9 +1,12 @@
 // Styles the content in about.html
-/* Begin About content styles */ 
+
+/* Begin About content styles */
+
 #volunteer-history {
-    background: lighten($gray, 30%);//#E6E6E6;
+    background: lighten($gray, 40%);
     height: auto;
-    #volunteer, #history {
+    #volunteer,
+    #history {
         padding: {
             bottom: 30px;
         }
@@ -11,7 +14,9 @@
 }
 
 #benefits {
-    margin-bottom: 150px;
+    margin: {
+        bottom: 150px;
+    }
     .btn {
         height: 75px;
         line-height: 75px;
@@ -19,6 +24,5 @@
             left: 10px;
             right: 10px;
         }
-        
     }
 }

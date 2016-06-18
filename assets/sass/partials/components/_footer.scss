@@ -1,25 +1,29 @@
 // contains styling for the footer
+
 /* Begin Footer styles */
+
 footer {
-    background: #262626;
-    color: #777;
+    background: $mine-shaft;
+    color: $gray;
     padding: 0 2%;
     h2 {
-        color: #fff;
+        color: $white;
         font-size: 1.25em;
     }
     ul {
         padding: 0;
+        li {
+            font-size: 0.9em;
+        }
     }
-    ul li,
     p {
         font-size: 0.9em;
     }
     a {
-        color: #777;
+        color: $gray;
         &:hover,
         &:active {
-            color: #fff;
+            color: $white;
             text-decoration: none;
         }
     }

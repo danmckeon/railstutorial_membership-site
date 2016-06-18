@@ -1,8 +1,10 @@
 //Contains styling for the header
+
 /* Begin Header Styles */
+
 header {
     a {
-        color: #888;
+        color: $gray;
     }
     .row {
         padding: 1%;
@@ -19,15 +21,15 @@ nav.navbar li {
         float: right;
         padding: 0;
         font-size: 13px;
-    }
-    ul li {
-        padding: 0 0.75em;
+        li {
+            padding: 0 0.75em;
+        }
     }
 }
 
 #logo form button {
-    background-color: #3B86B0;
-    color: #fff;
+    background-color: $orient; //#3B86B0;
+    color: $white;
     float: right;
 }
 
@@ -40,8 +42,8 @@ nav.navbar li {
     div.form-group {
         overflow: hidden;
         padding-right: .25em;
-    }
-    div.form-group input.form-control {
-        width: 100%;
+        input.form-control {
+            width: 100%;
+        }
     }
 }

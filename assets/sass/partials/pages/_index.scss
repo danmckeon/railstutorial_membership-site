@@ -1,6 +1,7 @@
-
 // Styles the content in index.html
- /* Begin index content styles */
+
+/* Begin index content styles */
+
 .contact-box {
     background-color: $gallery;
     border: 1px solid #ccc;
@@ -18,22 +19,26 @@
 }
 
 .ctr-infobox {
-    background-color: $orient;//#53728e;
+    background-color: $orient; //#53728e;
     border-color: #205b8e;
-    color: rgba(255, 255, 255, 0.85);
+    color: lighten($white, 0.85);
     padding: 4%;
     h1 {
-        color: #fff;
+        color: $white;
     }
     span.fa {
-        color: $sea-buckthorn;//#a2bc65;
+        color: $sea-buckthorn; //#a2bc65;
         font-size: 4em;
-        background-color: #fff;
+        background-color: $white;
         width: 80px;
         height: 80px;
         line-height: 80px;
-        border-radius: 99px;
-        text-align: center;
+        border: {
+            radius: 99px;
+        }
+        text: {
+            align: center;
+        }
     }
     .btn::after {
         content: ">";
