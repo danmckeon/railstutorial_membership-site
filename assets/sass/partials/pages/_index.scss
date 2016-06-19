@@ -4,7 +4,7 @@
 
 .contact-box {
     background-color: $gallery;
-    border: 1px solid #ccc;
+    border: 1px solid $silver;
     border-radius: 6px;
     div:nth-child(2) {
         display: flex;
@@ -19,6 +19,7 @@
 }
 
 .ctr-infobox {
+    @extend %btn-content-arrow;
     background-color: $orient; //#53728e;
     border-color: #205b8e;
     color: lighten($white, 0.85);
@@ -39,8 +40,5 @@
         text: {
             align: center;
         }
-    }
-    .btn::after {
-        content: ">";
     }
 }

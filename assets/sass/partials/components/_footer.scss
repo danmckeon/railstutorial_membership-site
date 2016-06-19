@@ -29,13 +29,13 @@ footer {
     }
 }
 
-#followUs .fb_follow,
-#twitter-widget-0 {
-    display: block;
-}
-
-#followUs ul li {
-    padding: 2% 0;
+#followUs {
+    ul li {
+        padding: 2% 0;
+    }
+    .fb-follow, #twitter-widget-0 {
+        display: block;
+    }
 }
 
 #copyright {
