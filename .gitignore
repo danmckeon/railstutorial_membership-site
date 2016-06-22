@@ -2,4 +2,6 @@
 .sass-cache
 .libsass.json
 .env
-/static/css/*
+node_modules/
+static/css/
+public/
