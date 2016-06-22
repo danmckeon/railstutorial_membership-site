@@ -2,3 +2,4 @@
 .sass-cache
 .libsass.json
 .env
+/static/css/*
