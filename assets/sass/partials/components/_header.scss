@@ -1,0 +1,49 @@
+//Contains styling for the header
+
+/* Begin Header Styles */
+
+header {
+    a {
+        color: $gray;
+    }
+    .row {
+        padding: 1%;
+    }
+}
+
+nav.navbar li {
+    text-transform: lowercase;
+}
+
+#contactInfo {
+    padding: 0;
+    ul {
+        float: right;
+        padding: 0;
+        font-size: em(13px);
+        li {
+            padding: 0 0.75em;
+        }
+    }
+}
+
+#logo form button {
+    background-color: $orient; //#3B86B0;
+    color: $white;
+    float: right;
+}
+
+#login p {
+    float: right;
+}
+
+#search {
+    margin-top: 3.5%;
+    div.form-group {
+        overflow: hidden;
+        padding-right: .25em;
+        input.form-control {
+            width: 100%;
+        }
+    }
+}

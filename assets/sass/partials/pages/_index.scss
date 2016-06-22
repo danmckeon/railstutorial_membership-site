@@ -1,0 +1,44 @@
+// Styles the content in index.html
+
+/* Begin index content styles */
+
+.contact-box {
+    background-color: $gallery;
+    border: 1px solid $silver;
+    border-radius: 6px;
+    div:nth-child(2) {
+        display: flex;
+    }
+    .btn {
+        margin: auto;
+    }
+}
+
+.info .btn-info {
+    float: right;
+}
+
+.ctr-infobox {
+    @extend %btn-content-arrow;
+    background-color: $orient; //#53728e;
+    border-color: #205b8e;
+    color: lighten($white, 0.85);
+    padding: 4%;
+    h1 {
+        color: $white;
+    }
+    span.fa {
+        color: $sea-buckthorn; //#a2bc65;
+        font-size: 4em;
+        background-color: $white;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border: {
+            radius: 99px;
+        }
+        text: {
+            align: center;
+        }
+    }
+}

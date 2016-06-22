@@ -1,0 +1,29 @@
+// Styles the content in about.html
+
+/* Begin About content styles */
+
+#volunteer-history {
+    background: lighten($gray, 40%);
+    height: auto;
+    #volunteer,
+    #history {
+        @extend %btn-content-arrow;
+        padding: {
+            bottom: 30px;
+        }
+    }
+}
+
+#benefits {
+    margin: {
+        bottom: 150px;
+    }
+    .btn {
+        height: 70px;
+        line-height: 70px;
+        margin: {
+            left: 10px;
+            right: 10px;
+        }
+    }
+}

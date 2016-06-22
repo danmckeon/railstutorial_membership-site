@@ -1,0 +1,44 @@
+// contains styling for the footer
+
+/* Begin Footer styles */
+
+footer {
+    background: $mine-shaft;
+    color: $gray;
+    padding: 0 2%;
+    h2 {
+        color: $white;
+        font-size: 1.25em;
+    }
+    ul {
+        padding: 0;
+        li {
+            font-size: 0.9em;
+        }
+    }
+    p {
+        font-size: 0.9em;
+    }
+    a {
+        color: $gray;
+        &:hover,
+        &:active {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}
+
+#followUs {
+    ul li {
+        padding: 2% 0;
+    }
+    .fb-follow, #twitter-widget-0 {
+        display: block;
+    }
+}
+
+#copyright {
+    padding: 1.25% 0;
+    background: #222;
+}

@@ -1,0 +1,6 @@
+//Put placeholders here for use when extending classes
+%btn-content-arrow {
+    .btn::after {
+        content: ">";
+    }
+}
