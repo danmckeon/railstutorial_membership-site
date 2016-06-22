@@ -1,11 +1,11 @@
 
 //****************************************************************************************************************************
-//This contains all of the 'core' styles used in the site. These are general styles that are used throughout but aren't 
-//function specifc (think things like body colors or default font sizes). Each individual page and or functionality should 
-//have it's own .scss file with a naming convention of *page name*.scss. 
+//This contains all of the 'core' styles used in the site. These are general styles that are used throughout but aren't
+//function specifc (think things like body colors or default font sizes). Each individual page and or functionality should
+//have it's own .scss file with a naming convention of *page name*.scss.
 
-//Page styles should focus on the styling of the unique page content only and then be imported into this file in the import 
-//section below. Additionally any global style variables (e.g. colors used in the color pallet) should be defined in this file 
+//Page styles should focus on the styling of the unique page content only and then be imported into this file in the import
+//section below. Additionally any global style variables (e.g. colors used in the color pallet) should be defined in this file
 //as well and nowhere else.
 //****************************************************************************************************************************
 
@@ -17,7 +17,3 @@
 
 //import specific page styles
 @import 'partials/pages/common','partials/pages/index', 'partials/pages/about';
-
-
-
-

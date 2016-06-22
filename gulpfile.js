@@ -1,8 +1,9 @@
 var $ = require('gulp-load-plugins')();
-var browser = require('browser-sync');
-var gulp = require('gulp');
 var rimraf = require('rimraf');
 var sequence = require('run-sequence');
+
+var browser = require('browser-sync');
+var gulp = require('gulp');
 
 gulp.task('clean', function(done) {
     //Delete our old css files
@@ -10,8 +11,8 @@ gulp.task('clean', function(done) {
 });
 
 // Compile SCSS files to CSS
-gulp.task('sass', function() {
-    return gulp.src('assets/sass/styles.scss')
+gulp.task('styles', function() {
+    return gulp.src('src/scss/styles.scss')
         .pipe($.sourcemaps.init())
         .pipe($.sass())
         .on('error', $.sass.logError)
@@ -20,7 +21,7 @@ gulp.task('sass', function() {
 });
 
 gulp.task('build', function(done) {
-  sequence('clean', 'sass', done);
+  sequence('clean', 'styles', done);
 });
 
 // Start a server with LiveReload to preview the site in
@@ -32,5 +33,5 @@ gulp.task('server', function() {
 });
 
 gulp.task('default', ['build', 'server'], function() {
-  gulp.watch('assets/sass/**/*', ['sass', browser.reload])
+  gulp.watch('src/scss/**/*', ['styles', browser.reload])
 });
