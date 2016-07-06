@@ -7,7 +7,7 @@ var gulp = require('gulp');
 
 gulp.task('clean', function(done) {
     //Delete our old css files
-    rimraf('static/css/**/*', done);
+    rimraf('{public,static/css}/**/*', done);
 });
 
 // Compile SCSS files to CSS
@@ -33,5 +33,6 @@ gulp.task('server', function() {
 });
 
 gulp.task('default', ['build', 'server'], function() {
-  gulp.watch('src/scss/**/*', ['styles', browser.reload])
+  gulp.watch('src/scss/**/*', ['styles', browser.reload]);
+  gulp.watch('public/**/*', ['styles', browser.reload]);
 });
