@@ -27,7 +27,7 @@ gulp.task('build', function(done) {
 // Start a server with LiveReload to preview the site in
 gulp.task('server', function() {
   browser.init({
-    server: '.',
+    server: 'public/',
     port: 8000
   });
 });
