@@ -24,6 +24,8 @@
     border-color: #205b8e;
     color: lighten($white, 0.85);
     padding: 4%;
+    text-align: center;
+    margin: 5% 0;
     h1 {
         color: $white;
     }
@@ -41,4 +43,12 @@
             align: center;
         }
     }
+    .btn-default {
+        -webkit-transition: background-color 0.25s;
+        transition: background-color 0.25s;
+    }
+}
+
+#center-boxes {
+    background-color: #efefef;
 }
