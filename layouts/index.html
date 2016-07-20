@@ -1,9 +1,25 @@
-{{ template "_default/single.html" . }}
-{{ define "main"}}
-  {{ range .Data.Pages }}
-      {{if eq .Type "index" }}
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head.html" }}
 
-          {{.Content}}
-      {{end}}
-  {{ end }}
-{{ end }}
+<body>
+    <!-- Facebook follow widget -->
+    <div id="fb-root"></div>
+    {{ partial "fb.html" }}
+
+    <div class="container">
+        {{ partial "header.html" }}
+
+        {{ range .Data.Pages }}
+            {{ if eq .Type "index" }}
+                {{ .Content }}
+            {{ end }}
+        {{ end }}
+
+        {{ partial "footer.html" . }}
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
